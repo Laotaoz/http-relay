@@ -1,0 +1,22 @@
+{
+    "global": {
+        "google2fa": {
+            "secret": "",
+            "time": 10
+        },
+        "privateKey": "",
+        "publicKey": ""
+    },
+    "client": {
+        "proxyPort": 1080
+    },
+    "server": {
+        "address": "",
+        "cert": {
+            "crt": "",
+            "key": ""
+        },
+        "httpPort": 32080,
+        "httpsPort": 32443
+    }
+}
