@@ -10,7 +10,7 @@ Implement relay for HTTP access. 为HTTP访问实现中继.
 
 ### 主要参数说明
 |参数名称|建议值|备注|
-|-|-|
+|-|-|-|
 |global.google2fa.secret|生成|防止重放攻击的密钥|
 |global.google2fa.time|10|生成的code有效时间|
 |global.privateKey|生成|SM2算法私钥 sm2.generateKeyPairHex()|
@@ -21,6 +21,7 @@ Implement relay for HTTP access. 为HTTP访问实现中继.
 |server.cert.key|无|Base64的HTTPS私钥 通常为自签名生成|
 |server.httpPort|生成|运行relay-server的http协议端口号|
 |server.httpsPort|生成|运行relay-server的https协议端口号|
+
 生成配置文件参考test.js
 
 ### 工作过程
